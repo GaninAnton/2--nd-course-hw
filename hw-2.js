@@ -75,11 +75,14 @@
         // Задание 9.0
         // Создайте объект user, у которого есть следующие свойства: name, age, isAdmin. Значения для свойств придумайте произвольные. Обратите внимание, что для свойства name значение должно быть строковым, для age– числовым, а для isAdmin– булевым.
 
-//  let user = {
-//      name:'Anton',
-//      age: 23,
-//      isAdmin: true
-//   
+ let user = {
+     name:'Anton',
+     age: 23,
+     isAdmin: true
+ }
+  
+
+user[`city of residence`] = `Moscow`;
 
 
        
