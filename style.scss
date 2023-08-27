@@ -103,4 +103,52 @@ body {
     padding: 33px;
 }
 
+.game_seasons {
+    height: 800px;
+    background-color: #000915;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &_items {
+
+
+
+        &_title {
+            color: #FFF;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &_text {
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px;
+            max-width: 584px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+
+        &_button {
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            background-color: #9C0332;
+            border-radius: 30px;
+            height: 48px;
+            width: 234px;
+            border: none
+        }
+    }
+}
+
+
+
 @import "mobile";

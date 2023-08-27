@@ -106,6 +106,44 @@ body {
   padding: 33px;
 }
 
+.game_seasons {
+  height: 800px;
+  background-color: #000915;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.game_seasons_items_title {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.game_seasons_items_text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  max-width: 584px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.game_seasons_items_button {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #9C0332;
+  border-radius: 30px;
+  height: 48px;
+  width: 234px;
+  border: none;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -139,5 +177,22 @@ body {
   }
   .Game_all {
     max-width: 343px;
+  }
+  .game_seasons_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .game_seasons_items_title {
+    text-align: center;
+    font-size: 32px;
+  }
+  .game_seasons_items_text {
+    text-align: center;
+    font-size: 14px;
+  }
+  .game_seasons_img_item {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
