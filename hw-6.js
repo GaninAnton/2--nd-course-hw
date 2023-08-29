@@ -147,7 +147,7 @@
 
 // for (let i = 0; i < arr.length; i++) {
 
-//     if (arr[i] == 3) {
+//     if (isNaN(arr[i + 1])) {
 //         console.log(`конец`);
 //         break
 
@@ -191,16 +191,17 @@
 // Задание 13
 // Создайте функцию, которая принимает на вход массив целых чисел, а возвращает массив содержащий только отрицательные значения.
 
-// function filterPositive(array) {
-//   // Допишите код функции
-// }
+function filterPositive(array) {
+    let result = array.filter(value => (value < 0));
+    return result;
+}
 
-// filterPositive([-1, 0, 5, -10, 56]); // => [-1, -10]
-// filterPositive([-25, 25, 0, -1000, -2]); // => [-25, -1000, -2]
 
-// let filterPositive = [-25, 25, 0, -1000, -2];
+console.log(filterPositive([-1, 0, 5, -10, 56]));
+console.log(filterPositive([-25, 25, 0, -1000, -2])); 
 
-//  let negativeNumbers =filterPositive.filter(function (i) {
+
+//  let filterPositive =filterPositive.filter(function (i) {
 //     return i < 0;
 //  })
 
