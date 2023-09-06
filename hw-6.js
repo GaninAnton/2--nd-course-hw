@@ -191,14 +191,14 @@
 // Задание 13
 // Создайте функцию, которая принимает на вход массив целых чисел, а возвращает массив содержащий только отрицательные значения.
 
-function filterPositive(array) {
-    let result = array.filter(value => (value < 0));
-    return result;
-}
+// function filterPositive(array) {
+//     let result = array.filter(value => (value < 0));
+//     return result;
+// }
 
 
-console.log(filterPositive([-1, 0, 5, -10, 56]));
-console.log(filterPositive([-25, 25, 0, -1000, -2])); 
+// console.log(filterPositive([-1, 0, 5, -10, 56]));
+// console.log(filterPositive([-25, 25, 0, -1000, -2])); 
 
 
 //  let filterPositive =filterPositive.filter(function (i) {

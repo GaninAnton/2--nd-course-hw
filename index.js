@@ -16,3 +16,29 @@ function gameMonth() {
                 alert ('осень');
             }    
 }
+
+
+function rememberWord() {
+    let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    fruits = fruits.sort(() => Math.random() - 0.5);
+
+    alert( fruits);
+    
+    let oneAnswer = prompt(`Чему равнялся первый элемент массива?`);
+
+    let twoAnswer = prompt (`Чему равнялся последний элемент массива?`);
+
+
+    if (fruits[0].toLowerCase() === oneAnswer.toLowerCase() && fruits[6].toLowerCase() === twoAnswer.toLowerCase()) {
+        
+        alert(`Вы угадали оба элемента!!`);
+
+    } else if (fruits[0].toLowerCase() === oneAnswer.toLowerCase() || fruits[6].toLowerCase() === twoAnswer.toLowerCase()) {
+        alert(`«Вы были близки к победе!`);
+
+    }else {
+            alert(`Вы ответили не верно`);
+        }
+    
+    
+}

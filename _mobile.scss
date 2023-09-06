@@ -39,11 +39,20 @@
     &_box {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
     }
 
     &_all {
-        max-width: 343px;
+        width: 343px;
     }
+
+   
+}
+
+.game_seasons {
+    display: flex;
+    flex-direction: column;
 }
 
 .game_seasons_items {
@@ -63,6 +72,12 @@
 .game_seasons_img_item {
     width: 344px;
     height: 236px;
+}
+
+.game_words {
+    display: flex;
+    flex-direction: column-reverse;
+    
 }
 
 

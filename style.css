@@ -70,6 +70,7 @@ body {
   gap: 32px;
   grid-template-columns: repeat(12, 1fr);
   padding-top: 128px;
+  justify-content: space-around;
 }
 
 .Game_box_one {
@@ -111,8 +112,7 @@ body {
   background-color: #000915;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .game_seasons_items_title {
   color: #FFF;
@@ -142,6 +142,18 @@ body {
   height: 48px;
   width: 234px;
   border: none;
+}
+
+.game_seasons_items_button:hover {
+  background: #EB443F;
+}
+
+.game_words {
+  height: 800px;
+  background-color: #000915;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media (max-width: 767px) {
@@ -174,9 +186,15 @@ body {
   .Game_box {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
   }
   .Game_all {
-    max-width: 343px;
+    width: 343px;
+  }
+  .game_seasons {
+    display: flex;
+    flex-direction: column;
   }
   .game_seasons_items {
     display: flex;
@@ -194,5 +212,9 @@ body {
   .game_seasons_img_item {
     width: 344px;
     height: 236px;
+  }
+  .game_words {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }/*# sourceMappingURL=style.css.map */
