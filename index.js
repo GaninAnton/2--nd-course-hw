@@ -38,7 +38,5 @@ function rememberWord() {
 
     }else {
             alert(`Вы ответили не верно`);
-        }
-    
-    
+        } 
 }
